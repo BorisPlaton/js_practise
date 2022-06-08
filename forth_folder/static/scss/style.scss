@@ -1,0 +1,25 @@
+.menu {
+  background: orange;
+  color: antiquewhite;
+  display: inline-block;
+  font-weight: 600;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  cursor: pointer;
+
+  .sub-menu-item,
+  .menu-title {
+    transition: all 0.1s ease-in;
+    padding: 10px 15px;
+  }
+
+  .sub-menu {
+    display: none;
+    background: orange;
+    position: absolute;
+  }
+
+  .sub-menu-item:hover {
+    background-color: rgb(255, 224, 167);
+    color: black;
+  }
+}
