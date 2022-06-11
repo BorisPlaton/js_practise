@@ -1,0 +1,17 @@
+.animation-spot {
+  background-color: darkkhaki;
+  width: 200px;
+  position: relative;
+  height: 200px;
+}
+
+.animated-block {
+  background-color: darkcyan;
+  width: 20px;
+  position: absolute;
+  height: 20px;
+}
+
+#startAnimation {
+  margin-bottom: 10px;
+}
