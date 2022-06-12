@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 15px;
+}
+
+li {
+  padding: 5px;
+  background-color: antiquewhite;
+  transition: all 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+li.header {
+  background-color: lightslategray;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 50, 0.2);
+}
+
+.hide {
+  display: none;
+}
+
+#search-input {
+  border-radius: 5px;
+  padding: 7px;
+  margin: 15px;
+  border: 1px peru solid;
+  background-color: beige;
+}
