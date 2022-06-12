@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.progress {
+  margin: 15px;
+  padding: 20px;
+  background-color: darkgray;
+  border-radius: 5px;
+  position: relative;
+}
+
+.inner-progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: darkcyan;
+}
+
+#start-progress-bar {
+  margin: 15px;
+}
